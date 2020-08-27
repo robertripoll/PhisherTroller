@@ -25,7 +25,7 @@ You need Python 3 to run PhisherTroller, as well as the following PIP dependenci
 * urllib3
 * Faker
 
-Setup guide
+Setup
 -----------
 
 Clone the repository:
