@@ -67,7 +67,7 @@ Usage
 -----------
 
 ```
-Usage: phisher_destroyer.py [-h] -u URL -fu FORM_USER -fp FORM_PASSWORD
+Usage: troller.py [-h] -u URL -fu FORM_USER -fp FORM_PASSWORD
                             [-d DELAY]
 
 Arguments:
