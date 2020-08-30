@@ -45,7 +45,7 @@ try:
 
 		response = requests.request("POST", url, headers = [], data = payload, files = [])
 
-		print(str(response.status_code) + ': ' + payload['xuser'] + '||' + payload['xpass'])
+		print(str(response.status_code) + ': ' + payload[form_user] + ' | ' + payload[form_password])
 
 		if delay != None and delay > 0:
 			sleep(delay / 100)
